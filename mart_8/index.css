@@ -13,7 +13,10 @@ body{
     font-family: 'Kom Post', Arial, sans-serif;
     overflow-x: hidden;
 }
-
+.v{
+    width:640px;
+    height:360px;
+}
 .pr{
     font-size: 200px;
     position: absolute;
@@ -392,7 +395,7 @@ body{
          border-radius: 50%;
     }
 }
-@media(max-width: 1300px){
+@media(max-width: 1200px){
 
     .pol{
         font-size: 120px;
@@ -618,4 +621,291 @@ body{
         width: 800px;
     }
 }
+@media(max-width: 1000px){
+    .pr{
+        font-size: 350px;
+        position: absolute;
+        left: 26%;
+        top: 10%;
+        animation: p 2s;
+    }
+    .pol{
+        font-size: 250px;
+        position: absolute;
+        left: 25%;
+        top: 40%;
+        width: 1700px;
+        animation: p 2s;
+    }
+    .sveg1{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        font-size: 200px;
+        stroke: red;
+        background: none;
+        border: none;
+        animation: p 2s;
+    }
+    .sveg2{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 100%;
+        top: 100%;
+        background: none;
+        border: none;
+        animation: p 2s;
+    }
 
+
+    .im {
+        position: fixed;
+        width: 100vw;
+        height: 170vh;
+        display: flex;
+        background-color: rgba(1, 1, 1, 1);
+        justify-content: center;
+        z-index: 1111;
+
+      transition: opacity 0s ease-out;
+      opacity: 1;
+    }
+
+    .im1 {
+        position: fixed;
+        width: 170vw;
+        height: 200vh;
+        display: flex;
+        background-color: rgba(1, 1, 1, 1);
+        justify-content: center;
+        font-size: 200px;
+        color: #FFFEFA;
+        z-index: 9999;
+
+      transition: opacity 0s ease-out;
+      opacity: 1;
+    }
+
+
+    .but1{
+         position: absolute;
+         top: 60%;
+         left: 40%;
+         border: none;
+         background: #AB130E;
+         height: 600px;
+         width: 800px;
+         font-size: 100px;
+         border-radius: 50%;
+    }
+
+    .but3{
+         position: absolute;
+         top: 110%;
+         left: 40%;
+         border: none;
+         background: #AB6CA5;
+         height: 600px;
+         width: 800px;
+         font-size: 150px;
+         border-radius: 50%;
+    }
+    .pr1{
+        font-size: 150px;
+        position: absolute;
+        left: 4%;
+        top: 10%;
+        animation: p 2s;
+        width: 2000px;
+
+    }
+    .pr7{
+        font-size: 300px;
+        position: absolute;
+        left: 15%;
+        top: 10%;
+        animation: p 2s;
+        width: 1500px;
+    }
+    .tex{
+        font-size: 100px;
+        position: absolute;
+        left: 4%;
+        top: 40%;
+        animation: p 2s;
+        width: 1800px;
+    }
+    .png{
+        position: absolute;
+        left: 120%;
+        top: 140%;
+        animation: p 2s;
+        width: 500px;
+        height: 400px;
+        border-radius: 50%;
+    }
+    .pos{
+        position: absolute;
+        left: 113%;
+        top: 171%;
+        width: 1000px;
+        animation: p 2 s;
+        font-size: 50px;
+    }
+
+    .str{
+        position: absolute;
+        left: 17%;
+        top: 0%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(90deg);
+        display: none;
+    }
+    .pos1{
+        position: absolute;
+        left: 42%;
+        top: 120%;
+        animation: p 2 s;
+        font-size: 40px;
+        display: none;
+    }
+    .b1{
+        position: absolute;
+        left: 12%;
+        top: 140%;
+        animation: p 2 s;
+        font-size: 80px;
+        width: 400px;
+        height: 200px;
+        border-radius: 50%;
+        border: none;
+        background: #AB6CA5;
+        z-index: 1111 !important;
+    }
+
+    .b3{
+        position: absolute;
+        left: 12%;
+        top: 160%;
+        animation: p 2 s;
+        font-size: 70px;
+        width: 400px;
+        height: 200px;
+        border-radius: 50%;
+        border: none;
+        background: #AB130E;
+        z-index: 11111 !important;
+    }
+    .vide{
+            position: absolute;
+            left: 30%;
+            top: 30%;
+            animation: p 2 s;
+            font-size: 40px;
+            z-index: 11111 !important;
+    }
+    .v{
+        width:1240px;
+        height:860px;
+    }
+    .e{
+        position: absolute;
+        left: 4%;
+        top: 4%;
+        z-index: 1111 !important;
+        animation: p 2 s;
+        font-size: 80px;
+        width: 440px;
+        height: 240px;
+        border-radius: 50%;
+        border: none;
+        background: #67AC4A;
+    }
+    .str1{
+        position: absolute;
+        left: 20%;
+        top: -90%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(90deg);
+    }
+    .str2{
+        position: absolute;
+        left: -33%;
+        top: -10%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(0deg);
+    }
+    .str3{
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(240deg);
+    }
+    .str4{
+        position: absolute;
+        left: -10%;
+        top: 70%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(300deg);
+    }
+    .str5{
+        position: absolute;
+        left: 20%;
+        top: 65%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(270deg);
+    }
+    .str6{
+        position: absolute;
+        left: 50%;
+        top: -80%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(120deg);
+    }
+    .str7{
+        position: absolute;
+        left: 70%;
+        top: -15%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(180deg);
+    }
+    .str8{
+        position: absolute;
+        left: -15%;
+        top: -80%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(60deg);
+    }
+    .str9{
+        position: absolute;
+        left: 18%;
+        top: %;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(90deg);
+    }
+    .dis{
+        padding: 10px;
+        background: red;
+        border-radius: 5%;
+        font-size: 60px;
+        position: absolute;
+        left: 10%;
+        top: 120%;
+        animation: p 2s;
+        width: 1300px;
+    }
+}
