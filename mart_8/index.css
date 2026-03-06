@@ -238,6 +238,7 @@ body{
         top: 30%;
         animation: p 2 s;
         font-size: 40px;
+        z-index: 11111 !important;
 }
 .e{
     position: absolute;
@@ -351,5 +352,269 @@ body{
         animation: p 2s;
         width: 1000px;
         transform: rotate(90deg);
+    }
+    .pol{
+        font-size: 150px;
+        position: absolute;
+        left: 13%;
+        top: 35%;
+        animation: p 2s;
+    }
+    .pr7{
+        font-size: 160px;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        animation: p 2s;
+        width: 1500px;
+    }
+    .but1{
+         position: absolute;
+         top: 40%;
+         left: 5%;
+         border: none;
+         background: #AB130E;
+         height: 300px;
+         width: 500px;
+         font-size: 50px;
+         border-radius: 50%;
+    }
+
+    .but3{
+         position: absolute;
+         top: 40%;
+         left: 50%;
+         border: none;
+         background: #AB6CA5;
+         height: 300px;
+         width: 500px;
+         font-size: 50px;
+         border-radius: 50%;
+    }
+}
+@media(max-width: 1200px){
+
+    .pol{
+        font-size: 120px;
+        position: absolute;
+        left: 17%;
+        top: 35%;
+        animation: p 2s;
+    }
+
+    .im1 {
+        font-size: 130px;
+    }
+
+    .but1{
+         position: absolute;
+         top: 40%;
+         left: 15%;
+         border: none;
+         background: #AB130E;
+         height: 250px;
+         width: 300px;
+         font-size: 40px;
+         border-radius: 50%;
+    }
+
+    .but3{
+         position: absolute;
+         top: 40%;
+         left: 50%;
+         border: none;
+         background: #AB6CA5;
+         height: 250px;
+         width: 300px;
+         font-size: 50px;
+         border-radius: 50%;
+    }
+    .pr1{
+        font-size: 70px;
+        position: absolute;
+        left: 4%;
+        top: 10%;
+        animation: p 2s;
+        width: 1000px;
+
+    }
+    .pr7{
+        font-size: 100px;
+        position: absolute;
+        left: 15%;
+        top: 10%;
+        animation: p 2s;
+        width: 1500px;
+    }
+    .tex{
+        font-size: 30px;
+        position: absolute;
+        left: 4%;
+        top: 40%;
+        animation: p 2s;
+        width: 700px;
+    }
+    .png{
+        position: absolute;
+        left: 70%;
+        top: 35%;
+        animation: p 2s;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .pos{
+        position: absolute;
+        left: 73%;
+        top: 84%;
+        animation: p 2 s;
+        font-size: 20px;
+    }
+
+    .str{
+        position: absolute;
+        left: 10%;
+        top: -10%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(90deg);
+    }
+    .pos1{
+        position: absolute;
+        left: 42%;
+        top: 130%;
+        animation: p 2 s;
+        font-size: 40px;
+    }
+    .b1{
+        position: absolute;
+        left: 12%;
+        top: 114%;
+        animation: p 2 s;
+        font-size: 50px;
+        width: 240px;
+        height: 140px;
+        border-radius: 50%;
+        border: none;
+        background: #AB6CA5;
+        z-index: 11111 !important;
+    }
+
+    .b3{
+        position: absolute;
+        left: 70%;
+        top: 114%;
+        animation: p 2 s;
+        font-size: 40px;
+        width: 240px;
+        height: 140px;
+        border-radius: 50%;
+        border: none;
+        background: #AB130E;
+        z-index: 11111 !important;
+    }
+    .vide{
+            position: absolute;
+            left: 30%;
+            top: 30%;
+            animation: p 2 s;
+            font-size: 40px;
+
+    }
+    .e{
+        position: absolute;
+        left: 4%;
+        top: 4%;
+        z-index: 1111 !important;
+        animation: p 2 s;
+        font-size: 40px;
+        width: 240px;
+        height: 140px;
+        border-radius: 50%;
+        border: none;
+        background: #67AC4A;
+    }
+    .str1{
+        position: absolute;
+        left: 15%;
+        top: -105%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(90deg);
+    }
+    .str2{
+        position: absolute;
+        left: -50%;
+        top: -15%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(0deg);
+    }
+    .str3{
+        position: absolute;
+        left: 60%;
+        top: 70%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(240deg);
+    }
+    .str4{
+        position: absolute;
+        left: -30%;
+        top: 70%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(300deg);
+    }
+    .str5{
+        position: absolute;
+        left: 15%;
+        top: 70%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(270deg);
+    }
+    .str6{
+        position: absolute;
+        left: 55%;
+        top: -95%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(120deg);
+    }
+    .str7{
+        position: absolute;
+        left: 77%;
+        top: -20%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(180deg);
+    }
+    .str8{
+        position: absolute;
+        left: -25%;
+        top: -95%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(60deg);
+    }
+    .str9{
+        position: absolute;
+        left: 12%;
+        top: %;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(90deg);
+    }
+    .dis{
+        padding: 10px;
+        background: red;
+        border-radius: 5%;
+        font-size: 40px;
+        position: absolute;
+        left: 20%;
+        top: 140%;
+        animation: p 2s;
+        width: 800px;
     }
 }
