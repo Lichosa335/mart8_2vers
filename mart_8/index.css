@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'Kom Post';
+    src: url('Kom-post/kom-post.ttf') format('truetype');
+}
+body{
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+     user-select: none;
+    -webkit-user-select: none;
+    font-family: 'Kom Post', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.pr{
+    font-size: 200px;
+    position: absolute;
+    left: 26%;
+    top: 10%;
+    animation: p 2s;
+}
+.pol{
+    font-size: 150px;
+    position: absolute;
+    left: 17%;
+    top: 35%;
+    animation: p 2s;
+}
+.sveg1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    font-size: 200px;
+    stroke: red;
+    background: none;
+    border: none;
+    animation: p 2s;
+}
+.sveg2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    background: none;
+    border: none;
+    animation: p 2s;
+}
+
+
+
+@keyframes p {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.im {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(1, 1, 1, 1);
+    justify-content: center;
+    z-index: 1111;
+
+  transition: opacity 0s ease-out;
+  opacity: 1;
+}
+
+.im.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.im1 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(1, 1, 1, 1);
+    justify-content: center;
+    font-size: 200px;
+    color: #FFFEFA;
+    z-index: 9999;
+
+  transition: opacity 0s ease-out;
+  opacity: 1;
+}
+
+.im1.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.ins{
+    position: absolute;
+    z-index: 9;
+    font-size: 30px;
+    background: #AB6CA5;
+    border-radius: 50%;
+    border: none;
+    animation: t 4s infinite;
+    width: 300px;
+    height: 100px;
+}
+
+
+.le{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+.vis {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.vis1{
+    opacity: 1;
+    visibility: visible;
+}
+
+.but1{
+     position: absolute;
+     top: 40%;
+     left: 10%;
+     border: none;
+     background: #AB130E;
+     height: 300px;
+     width: 500px;
+     font-size: 50px;
+     border-radius: 50%;
+}
+
+.but3{
+     position: absolute;
+     top: 40%;
+     left: 60%;
+     border: none;
+     background: #AB6CA5;
+     height: 300px;
+     width: 500px;
+     font-size: 50px;
+     border-radius: 50%;
+}
+.pr1{
+    font-size: 100px;
+    position: absolute;
+    left: 4%;
+    top: 10%;
+    animation: p 2s;
+    width: 1500px;
+
+}
+.pr7{
+    font-size: 160px;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    animation: p 2s;
+    width: 1500px;
+}
+.tex{
+    font-size: 30px;
+    position: absolute;
+    left: 4%;
+    top: 40%;
+    animation: p 2s;
+    width: 700px;
+}
+.png{
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    animation: p 2s;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.pos{
+    position: absolute;
+    left: 73%;
+    top: 84%;
+    animation: p 2 s;
+    font-size: 20px;
+}
+
+.str{
+    position: absolute;
+    left: 17%;
+    top: 0%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(90deg);
+}
+.pos1{
+    position: absolute;
+    left: 42%;
+    top: 120%;
+    animation: p 2 s;
+    font-size: 40px;
+}
+.b1{
+    position: absolute;
+    left: 12%;
+    top: 114%;
+    animation: p 2 s;
+    font-size: 50px;
+    width: 240px;
+    height: 140px;
+    border-radius: 50%;
+    border: none;
+    background: #AB6CA5;
+}
+
+.b3{
+    position: absolute;
+    left: 70%;
+    top: 114%;
+    animation: p 2 s;
+    font-size: 40px;
+    width: 240px;
+    height: 140px;
+    border-radius: 50%;
+    border: none;
+    background: #AB130E;
+}
+.vide{
+        position: absolute;
+        left: 30%;
+        top: 30%;
+        animation: p 2 s;
+        font-size: 40px;
+}
+.e{
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    z-index: 1111 !important;
+    animation: p 2 s;
+    font-size: 40px;
+    width: 240px;
+    height: 140px;
+    border-radius: 50%;
+    border: none;
+    background: #67AC4A;
+}
+.str1{
+    position: absolute;
+    left: 20%;
+    top: -90%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(90deg);
+}
+.str2{
+    position: absolute;
+    left: -33%;
+    top: -10%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(0deg);
+}
+.str3{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(240deg);
+}
+.str4{
+    position: absolute;
+    left: -10%;
+    top: 70%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(300deg);
+}
+.str5{
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(270deg);
+}
+.str6{
+    position: absolute;
+    left: 50%;
+    top: -80%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(120deg);
+}
+.str7{
+    position: absolute;
+    left: 70%;
+    top: -15%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(180deg);
+}
+.str8{
+    position: absolute;
+    left: -15%;
+    top: -80%;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(60deg);
+}
+.str9{
+    position: absolute;
+    left: 18%;
+    top: %;
+    animation: p 2s;
+    width: 1000px;
+    transform: rotate(90deg);
+}
+.dis{
+    padding: 10px;
+    background: red;
+    border-radius: 5%;
+    font-size: 60px;
+    position: absolute;
+    left: 10%;
+    top: 120%;
+    animation: p 2s;
+    width: 1300px;
+}
+@media(max-width: 1500px){
+
+    .pos1{
+        position: absolute;
+        left: 42%;
+        top: 130%;
+        animation: p 2 s;
+        font-size: 40px;
+    }
+    .str{
+        position: absolute;
+        left: 14%;
+        top: 0%;
+        animation: p 2s;
+        width: 1000px;
+        transform: rotate(90deg);
+    }
+}
