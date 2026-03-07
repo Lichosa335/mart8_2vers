@@ -721,10 +721,10 @@ body{
          border-radius: 50%;
     }
     .pr1{
-        font-size: 80px;
+        font-size: 90px;
         position: absolute;
         left: 4%;
-        top: 10%;
+        top: 20%;
         animation: p 2s;
         width: 150%;
 
@@ -746,11 +746,11 @@ body{
         text-align: left !important;
         padding-right: 10px !important;
         padding: 20px !important;
-
+        line-height: 2 !important;
     }
     .png{
         position: absolute;
-        left: 120%;
+        left: 110%;
         top: 40%;
         animation: p 2s;
         width: 400px;
@@ -759,8 +759,8 @@ body{
     }
     .pos{
         position: absolute;
-        left: 113%;
-        top: 71%;
+        left: 100%;
+        top: 61%;
         width: 1000px;
         animation: p 2 s;
         font-size: 50px;
@@ -785,12 +785,12 @@ body{
     }
     .b1{
         position: absolute;
-        left: 12%;
-        top: 100%;
+        left: 52%;
+        top: 110%;
         animation: p 2 s;
-        font-size: 80px;
-        width: 400px;
-        height: 200px;
+        font-size: 100px;
+        width: 600px;
+        height: 300px;
         border-radius: 50%;
         border: none;
         background: #AB6CA5;
@@ -799,12 +799,12 @@ body{
 
     .b3{
         position: absolute;
-        left: 102%;
-        top: 100%;
+        left: 52%;
+        top: 140%;
         animation: p 2 s;
-        font-size: 70px;
-        width: 400px;
-        height: 200px;
+        font-size: 100px;
+        width: 600px;
+        height: 300px;
         border-radius: 50%;
         border: none;
         background: #AB130E;
