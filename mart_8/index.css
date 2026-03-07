@@ -12,6 +12,8 @@ body{
     -webkit-user-select: none;
     font-family: 'Kom Post', Arial, sans-serif;
     overflow-x: hidden;
+    background: linear-gradient(145deg, #fed7d7 0%, #faebc8 100%);
+    background-attachment: fixed; /* чтобы градиент не скроллился */
 }
 .v{
     width:640px;
@@ -242,6 +244,10 @@ body{
         animation: p 2 s;
         font-size: 40px;
         z-index: 11111 !important;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 20px 30px rgba(0,0,0,0.3);
+        border: 4px solid white;
 }
 .e{
     position: absolute;
@@ -334,10 +340,16 @@ body{
     border-radius: 5%;
     font-size: 60px;
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 120%;
     animation: p 2s;
     width: 1300px;
+    margin: 30px auto 40px;
+    padding: clamp(20px, 4vw, 30px);
+    background: rgba(255, 69, 58, );
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0 10px 0 #8b1e1e;
 }
 @media(max-width: 1500px){
 
@@ -815,15 +827,15 @@ body{
     }
     .vide{
             position: absolute;
-            left: 0%;
+            left: 5%;
             top: 30%;
-            width: 1000%;
+            width: 140%;
             animation: p 2 s;
             font-size: 40px;
             z-index: 11111 !important;
     }
     .v{
-        width:17%;
+        width:100%;
         height:860px;
     }
     .e{
@@ -922,11 +934,9 @@ body{
         border-radius: 5%;
         font-size: 60px;
         position: absolute;
-        left: 10%;
+        left: 5%;
         top: 120%;
         animation: p 2s;
         width: 1300px;
     }
 }
-
-
