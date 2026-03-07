@@ -638,10 +638,10 @@ body{
         animation: p 2s;
     }
     .sveg1{
-        width: 200px;
-        height: 200px;
+        width: 400px;
+        height: 400px;
         position: absolute;
-        left: 50%;
+        left: 10%;
         top: 100%;
         font-size: 200px;
         stroke: red;
@@ -649,18 +649,25 @@ body{
         border: none;
         animation: p 2s;
     }
+       .sveg1 img {
+            width: 500px !important;  /* увеличиваем картинку внутри */
+            height: 500px !important;
+        }
     .sveg2{
-        width: 200px;
-        height: 200px;
+        width: 400px;
+        height: 400px;
         position: absolute;
-        left: 100%;
-        top: 100%;
+        left: 80%;
+        top: 105%;
         background: none;
         border: none;
         animation: p 2s;
     }
 
-
+       .sveg2 img {
+            width: 400px !important;  /* увеличиваем картинку внутри */
+            height: 400px !important;
+        }
     .im {
         position: fixed;
         width: 100vw;
@@ -681,7 +688,7 @@ body{
         display: flex;
         background-color: rgba(1, 1, 1, 1);
         justify-content: center;
-        font-size: 200px;
+        font-size: 180px;
         color: #FFFEFA;
         z-index: 9999;
 
@@ -714,12 +721,12 @@ body{
          border-radius: 50%;
     }
     .pr1{
-        font-size: 150px;
+        font-size: 80px;
         position: absolute;
         left: 4%;
         top: 10%;
         animation: p 2s;
-        width: 2000px;
+        width: 150%;
 
     }
     .pr7{
@@ -731,26 +738,29 @@ body{
         width: 1500px;
     }
     .tex{
-        font-size: 100px;
-        position: absolute;
-        left: 4%;
-        top: 40%;
-        animation: p 2s;
-        width: 1800px;
+        font-size: 40px !important;
+        width: 90% !important;
+        left: 5% !important;
+        top: 40% !important;
+        line-height: 1.5 !important;
+        text-align: left !important;
+        padding-right: 10px !important;
+        padding: 20px !important;
+
     }
     .png{
         position: absolute;
         left: 120%;
-        top: 140%;
+        top: 40%;
         animation: p 2s;
-        width: 500px;
-        height: 400px;
+        width: 400px;
+        height: 300px;
         border-radius: 50%;
     }
     .pos{
         position: absolute;
         left: 113%;
-        top: 171%;
+        top: 71%;
         width: 1000px;
         animation: p 2 s;
         font-size: 50px;
@@ -776,7 +786,7 @@ body{
     .b1{
         position: absolute;
         left: 12%;
-        top: 140%;
+        top: 100%;
         animation: p 2 s;
         font-size: 80px;
         width: 400px;
@@ -789,8 +799,8 @@ body{
 
     .b3{
         position: absolute;
-        left: 12%;
-        top: 160%;
+        left: 102%;
+        top: 100%;
         animation: p 2 s;
         font-size: 70px;
         width: 400px;
