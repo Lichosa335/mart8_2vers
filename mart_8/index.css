@@ -814,12 +814,13 @@ body{
             position: absolute;
             left: 30%;
             top: 30%;
+            width: 1000%;
             animation: p 2 s;
             font-size: 40px;
             z-index: 11111 !important;
     }
     .v{
-        width:1240px;
+        width:10%;
         height:860px;
     }
     .e{
@@ -837,8 +838,8 @@ body{
     }
     .str1{
         position: absolute;
-        left: 20%;
-        top: -90%;
+        left: 30%;
+        top: -30%;
         animation: p 2s;
         width: 1000px;
         transform: rotate(90deg);
