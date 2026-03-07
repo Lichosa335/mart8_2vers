@@ -812,7 +812,7 @@ body{
     }
     .vide{
             position: absolute;
-            left: 30%;
+            left: 0%;
             top: 30%;
             width: 1000%;
             animation: p 2 s;
@@ -820,7 +820,7 @@ body{
             z-index: 11111 !important;
     }
     .v{
-        width:10%;
+        width:17%;
         height:860px;
     }
     .e{
@@ -846,51 +846,53 @@ body{
     }
     .str2{
         position: absolute;
-        left: -33%;
-        top: -10%;
+        left: -3%;
+        top: -30%;
         animation: p 2s;
         width: 1000px;
-        transform: rotate(0deg);
+        transform: rotate(90deg);
     }
     .str3{
         position: absolute;
-        left: 50%;
-        top: 70%;
+        left: 60%;
+        top: 80%;
         animation: p 2s;
         width: 1000px;
-        transform: rotate(240deg);
+        transform: rotate(270deg);
     }
     .str4{
         position: absolute;
-        left: -10%;
-        top: 70%;
+        left: 0%;
+        top: 80%;
         animation: p 2s;
         width: 1000px;
-        transform: rotate(300deg);
+        transform: rotate(270deg);
+
     }
     .str5{
         position: absolute;
-        left: 20%;
-        top: 65%;
+        left: 30%;
+        top: 80%;
         animation: p 2s;
         width: 1000px;
         transform: rotate(270deg);
     }
     .str6{
         position: absolute;
-        left: 50%;
-        top: -80%;
+        left: 27%;
+        top: 50%;
         animation: p 2s;
         width: 1000px;
-        transform: rotate(120deg);
+        transform: rotate(90deg);
+        z-index:111111;
     }
     .str7{
         position: absolute;
-        left: 70%;
-        top: -15%;
+        left: 60%;
+        top: -30%;
         animation: p 2s;
         width: 1000px;
-        transform: rotate(180deg);
+        transform: rotate(90deg);
     }
     .str8{
         position: absolute;
@@ -898,7 +900,7 @@ body{
         top: -80%;
         animation: p 2s;
         width: 1000px;
-        transform: rotate(60deg);
+        transform: rotate(90deg);
     }
     .str9{
         position: absolute;
