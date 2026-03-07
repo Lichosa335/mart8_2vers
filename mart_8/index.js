@@ -59,3 +59,11 @@ document.getElementById('zad2').addEventListener('click', function() {
     element1.classList.remove('vis'); // скрываем поздравление
     element1.classList.add('le');     // и добавляем le
 });
+document.getElementById('woth2').addEventListener('click', function(){
+    const element = document.getElementById('pozd1');
+    const poze = document.getElementById('woth1');
+
+    poze.classList.add('vis');      // показываем поздравление через vis
+    element.classList.remove('vis'); // скрываем меню
+    element.classList.add('le');     // и добавляем le для надежности
+});
