@@ -12,6 +12,7 @@ body{
     -webkit-user-select: none;
     font-family: 'Kom Post', Arial, sans-serif;
     overflow-x: hidden;
+    background: linear-gradient(145deg, #fbc2c2 0%, #f8e0b0 100%);
 }
 .v{
     width:640px;
@@ -928,3 +929,4 @@ body{
         width: 1300px;
     }
 }
+
