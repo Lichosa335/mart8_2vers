@@ -206,7 +206,7 @@ body{
 .pos1{
     position: absolute;
     left: 42%;
-    top: 120%;
+    top: 130%;
     animation: p 2 s;
     font-size: 40px;
 }
@@ -344,7 +344,7 @@ body{
     .pos1{
         position: absolute;
         left: 42%;
-        top: 130%;
+        top: 140%;
         animation: p 2 s;
         font-size: 40px;
     }
@@ -395,7 +395,7 @@ body{
          border-radius: 50%;
     }
 }
-@media(max-width: 1200px){
+@media(max-width: 1300px){
 
     .pol{
         font-size: 120px;
@@ -469,7 +469,7 @@ body{
     .pos{
         position: absolute;
         left: 73%;
-        top: 84%;
+        top: 90%;
         animation: p 2 s;
         font-size: 20px;
     }
@@ -485,7 +485,7 @@ body{
     .pos1{
         position: absolute;
         left: 42%;
-        top: 130%;
+        top: 145%;
         animation: p 2 s;
         font-size: 40px;
     }
@@ -544,6 +544,7 @@ body{
         animation: p 2s;
         width: 1000px;
         transform: rotate(90deg);
+        display:none;
     }
     .str2{
         position: absolute;
@@ -576,6 +577,7 @@ body{
         animation: p 2s;
         width: 1000px;
         transform: rotate(270deg);
+        display:none;
     }
     .str6{
         position: absolute;
@@ -608,14 +610,15 @@ body{
         animation: p 2s;
         width: 1000px;
         transform: rotate(90deg);
+        display:none;
     }
     .dis{
         padding: 10px;
         background: red;
         border-radius: 5%;
-        font-size: 40px;
+        font-size: 30px;
         position: absolute;
-        left: 20%;
+        left: 10%;
         top: 140%;
         animation: p 2s;
         width: 800px;
@@ -843,6 +846,7 @@ body{
         animation: p 2s;
         width: 1000px;
         transform: rotate(90deg);
+        display: flex;
     }
     .str2{
         position: absolute;
@@ -876,6 +880,7 @@ body{
         animation: p 2s;
         width: 1000px;
         transform: rotate(270deg);
+        display:flex;
     }
     .str6{
         position: absolute;
@@ -909,6 +914,7 @@ body{
         animation: p 2s;
         width: 1000px;
         transform: rotate(90deg);
+        display:flex;
     }
     .dis{
         padding: 10px;
