@@ -960,60 +960,12 @@ body{
     /* Исправляем z-index и порядок слоев */
 
 
-    /* Кнопка "Назад" - делаем кликабельной поверх всего */
-
-
-    /* Контейнер видео */
-    .vide {
-        position: relative !important;
-        left: 100px !important;
-        top: 600px !important; /* отступ сверху для кнопки */
-        width: 90% !important;
-        margin: 0 auto !important;
-        transform: none !important;
-        z-index: 100 !important;
-        border-radius: 20px;
-        border: 3px solid white;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    }
-
-    /* Само видео */
-    .v {
-        width: 100% !important;
-        height: auto !important;
-        aspect-ratio: 16/9;
-        display: block;
-    }
-
-    /* Дисклеймер */
-    .dis {
-        position: relative !important;
-        left: 10% !important;
-        top: 900px !important;
-        width: 90% !important;
-        margin: 20px auto !important;
-        font-size: 40px !important;
-        padding: 20px !important;
-        border-radius: 30px !important;
-        z-index: 100 !important;
-        box-sizing: border-box;
-    }
-
-    /* Ссылка в дисклеймере */
-
-
     /* Все стрелки - временно отключаем */
     .str1, .str2, .str3, .str4, .str5, .str6, .str7, .str8, .str9 {
         display: none !important;
     }
 
-    /* Добавляем отступ внизу для скролла */
-    #woth1::after {
-        content: '';
-        display: block;
-        height: 50px;
-        width: 100%;
-    }
+
 }
 
 
